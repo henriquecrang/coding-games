@@ -1,2 +1,2 @@
 # clash-of-codes
-Códigos feitos em partidas disputadas no Coding Game
+Repositório criado para compartilhar códigos feitos em partidas do Clash of Codes disputadas na plataforma [CodinGame](https://www.codingame.com/multiplayer/clashofcode)
