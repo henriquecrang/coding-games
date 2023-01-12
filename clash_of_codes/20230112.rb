@@ -22,5 +22,5 @@
 
 u = gets
 
-u.length < 3 || u.length > 20 || !(u !~ /[^a-z0-9]/i) ? puts("INVALID") : puts("VALID")
+u.length < 3 || u.length > 20 || u =~ /[^a-z0-9]/i ? puts("INVALID") : puts("VALID")
 
