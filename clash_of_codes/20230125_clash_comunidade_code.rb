@@ -39,3 +39,27 @@ r = r * i.to_i
 
 puts r
 
+### contar ocorrências de um char
+
+s = gets.chomp
+
+a = 0
+c = 0
+g = 0
+t = 0
+
+s.each_char{ |i|
+    case i
+    when 'A'
+        a += 1
+    when 'C'
+        c += 1
+    when 'G'
+        g += 1
+    when 'T'
+        t += 1
+    end
+
+}
+
+puts "#{a} #{c} #{g} #{t}"
