@@ -27,4 +27,15 @@ p = p * i
 puts p
 puts s
 
+## multiplicar todos os números
+
+num = gets.chomp
+
+r = 1
+
+num.each_char{ |i|
+r = r * i.to_i
+}
+
+puts r
 
