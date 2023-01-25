@@ -63,3 +63,20 @@ s.each_char{ |i|
 }
 
 puts "#{a} #{c} #{g} #{t}"
+
+## surface area of a rectangular prism
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+l = gets.to_i
+w = gets.to_i
+h = gets.to_i
+
+# Write an answer using puts
+# To debug: STDERR.puts "Debug messages..."
+
+puts 2*(l*w + h*l + h*w)
+ 
+
+
