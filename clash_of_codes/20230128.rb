@@ -17,4 +17,4 @@
 #5
 ##
 x=gets.to_i
-puts (x*x-(x+1)**2).abs
+puts (x+1)**2-x*x
