@@ -14,14 +14,6 @@
 #1 1
 #Output
 #2
-#
 gets
-i=gets.split(" ")
-x=0
-n=i[0].to_i
-i.each{|a|
-a=a.to_i
-x=a if a>x
-n=a if a<n
-} 
-puts i+n
+i=gets.split.map(&:to_i)
+puts i.min+i.max
