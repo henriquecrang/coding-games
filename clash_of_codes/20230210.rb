@@ -1,5 +1,5 @@
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
+# Check if a string is a palindrome. If it is, print "wins", if it isnt, print "loses".
+
 
 a = gets.chomp
 
