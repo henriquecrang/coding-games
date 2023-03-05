@@ -22,8 +22,7 @@
 
 t=0
 gets.to_i.times do
-  row = gets.chomp
-  row = row.split(" ")
+  row = gets.split(" ")
   t+=row[0].to_i
   t+=row[1].to_i*2
   t+=row[2].to_i*5
