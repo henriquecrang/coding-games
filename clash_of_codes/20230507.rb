@@ -22,4 +22,5 @@
 ######
 gets
 p gets.split.reduce(0){|s,i|s+Math.sqrt(i.to_i)}.to_i
+# p gets.split.map{|i|Math.sqrt(i.to_i)}.reduce(:+).to_i
 
